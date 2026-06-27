@@ -1,0 +1,194 @@
+{
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "whatsapp_number": {
+      "type": "string"
+    },
+    "current_location": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "position_interested_in": {
+      "type": "string"
+    },
+    "salary_expectation": {
+      "type": "string"
+    },
+    "cv_url": {
+      "type": "string"
+    },
+    "cv_text": {
+      "type": "string"
+    },
+    "cover_letter": {
+      "type": "string"
+    },
+    "job_category": {
+      "type": "string",
+      "enum": [
+        "Waiter",
+        "Bartender",
+        "Supervisor",
+        "Manager",
+        "Chef",
+        "Cook",
+        "Kitchen Assistant",
+        "Cleaner",
+        "Housekeeper",
+        "Receptionist",
+        "Cashier",
+        "Security Officer",
+        "Driver",
+        "Electrician",
+        "Plumber",
+        "HVAC Technician",
+        "IT Support",
+        "Nurse",
+        "Caregiver",
+        "Sales Representative",
+        "Customer Service Agent",
+        "Administrative Officer",
+        "Storekeeper",
+        "Technical Staff"
+      ]
+    },
+    "suitability_score": {
+      "type": "number"
+    },
+    "match_label": {
+      "type": "string",
+      "enum": [
+        "Excellent Match",
+        "Strong Match",
+        "Moderate Match",
+        "Weak Match"
+      ]
+    },
+    "communication_quality": {
+      "type": "string",
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    "recommended_status": {
+      "type": "string",
+      "enum": [
+        "Shortlist for Interview",
+        "Keep on File",
+        "Reject"
+      ]
+    },
+    "interview_priority": {
+      "type": "string",
+      "enum": [
+        "High",
+        "Medium",
+        "Low"
+      ]
+    },
+    "screening_summary": {
+      "type": "string"
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "New Applicant",
+        "CV Requested",
+        "CV Received",
+        "Screening In Progress",
+        "Qualified",
+        "Interview Scheduled",
+        "Interview Completed",
+        "Ready For Deployment",
+        "Waitlist",
+        "Placed",
+        "Rejected"
+      ]
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "sheet_sync_status": {
+      "type": "string",
+      "enum": [
+        "synced",
+        "pending_retry",
+        "failed",
+        "not_synced"
+      ]
+    },
+    "gender": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "current_address": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "passport_photo_url": {
+      "type": "string"
+    },
+    "education": {
+      "type": "string"
+    },
+    "experience_years": {
+      "type": "number"
+    },
+    "current_employment_status": {
+      "type": "string"
+    },
+    "expected_salary": {
+      "type": "string"
+    },
+    "availability_date": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "string"
+    },
+    "references": {
+      "type": "string"
+    },
+    "interview_notes": {
+      "type": "string"
+    },
+    "recruiter_assigned": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "WhatsApp",
+        "Web",
+        "Referral",
+        "Direct",
+        "Other"
+      ]
+    },
+    "flagged_for_human": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "Applicant"
+}

@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "phone_number": {
+      "type": "string"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "contact_type": {
+      "type": "string",
+      "enum": [
+        "job_seeker",
+        "client",
+        "unknown"
+      ]
+    },
+    "current_flow": {
+      "type": "string",
+      "enum": [
+        "job_seeker_intake",
+        "client_intake",
+        "status_check",
+        "general_qa",
+        "none"
+      ]
+    },
+    "current_step": {
+      "type": "string"
+    },
+    "partial_data": {
+      "type": "string"
+    },
+    "last_message_at": {
+      "type": "string"
+    },
+    "flow_completed": {
+      "type": "boolean"
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "linked_record_id": {
+      "type": "string"
+    },
+    "flagged_for_human": {
+      "type": "boolean"
+    },
+    "flag_reason": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "WhatsAppConversation"
+}

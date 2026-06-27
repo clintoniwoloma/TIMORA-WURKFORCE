@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "conversation_id": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string",
+      "enum": [
+        "large_request",
+        "salary_negotiation",
+        "sensitive_data",
+        "dispute",
+        "safeguarding",
+        "weak_communication",
+        "payment_inquiry",
+        "other"
+      ]
+    },
+    "details": {
+      "type": "string"
+    },
+    "resolved": {
+      "type": "boolean"
+    },
+    "resolved_by": {
+      "type": "string"
+    },
+    "resolution_notes": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "ConversationFlag"
+}

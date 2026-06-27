@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "properties": {
+    "client_id": {
+      "type": "string"
+    },
+    "client_name": {
+      "type": "string"
+    },
+    "position_required": {
+      "type": "string"
+    },
+    "number_of_staff": {
+      "type": "number"
+    },
+    "salary_budget": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "end_date": {
+      "type": "string"
+    },
+    "special_requirements": {
+      "type": "string"
+    },
+    "job_category": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Pending",
+        "Reviewing",
+        "Approved",
+        "Recruiting",
+        "Filled",
+        "Completed",
+        "Cancelled"
+      ]
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "sheet_sync_status": {
+      "type": "string",
+      "enum": [
+        "synced",
+        "pending_retry",
+        "failed",
+        "not_synced"
+      ]
+    }
+  },
+  "required": [],
+  "name": "StaffRequest"
+}

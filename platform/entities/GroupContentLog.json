@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "group_type": {
+      "type": "string",
+      "enum": [
+        "job_seeker",
+        "employee"
+      ]
+    },
+    "content_type": {
+      "type": "string",
+      "enum": [
+        "cv_tips",
+        "interview_tips",
+        "customer_service_tips",
+        "career_development",
+        "current_vacancies",
+        "grooming_tips",
+        "motivational",
+        "attendance_reminder",
+        "shift_reminder",
+        "deployment_notice",
+        "training_notice"
+      ]
+    },
+    "day_of_week": {
+      "type": "string"
+    },
+    "scheduled_for": {
+      "type": "string"
+    },
+    "sent_at": {
+      "type": "string"
+    },
+    "message_preview": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "scheduled",
+        "sent",
+        "failed"
+      ]
+    },
+    "error_details": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "GroupContentLog"
+}

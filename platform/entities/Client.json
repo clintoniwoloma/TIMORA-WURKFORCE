@@ -1,0 +1,68 @@
+{
+  "type": "object",
+  "properties": {
+    "company_name": {
+      "type": "string"
+    },
+    "contact_person": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "whatsapp_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "reference_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "New",
+        "Contacted",
+        "Proposal Sent",
+        "Active",
+        "Inactive"
+      ]
+    },
+    "contract_start_date": {
+      "type": "string"
+    },
+    "contract_end_date": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "sheet_sync_status": {
+      "type": "string",
+      "enum": [
+        "synced",
+        "pending_retry",
+        "failed",
+        "not_synced"
+      ]
+    },
+    "flagged_for_human": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "Client"
+}
