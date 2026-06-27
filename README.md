@@ -30,7 +30,7 @@ TIMORA Talent & Workforce Hub is a full-stack workforce outsourcing and recruitm
 | Group | Purpose | Link |
 |-------|---------|------|
 | Job Seeker Community | Applicants — daily tips, vacancies, career content | [Join](https://chat.whatsapp.com/KFM3IY2ZOGo2QnmPQ0YUPB) |
-| Employee Staff Group | Deployed workers — attendance, tips, ethics, sessions | [Join](https://chat.whatsapp.com/K9ja8tXXZQ9GPgZFozkRhz) |
+| Employee Staff Group | Deployed workers — attendance, tips, ethics, sessions | [Join]() |
 
 ---
 
@@ -158,10 +158,10 @@ This platform is built on **Base44** — a no-code AI agent and app builder plat
 
 ## 📞 Contact
 
-**Owner:** Tamunosiki Iwoloma Clinton
+**Owner:** Tamunosiki Iwoloma Clinton +2349025975247
 **Platform:** TIMORA Talent & Workforce Hub
 **WhatsApp Bot:** Message via the Job Seeker or Employee group links above
 
 ---
 
-*Built with ❤️ by TIMORA WURKFORCE AI — Nigeria's smartest workforce automation.*
+*Built with ❤️ by TIMORA WURKFORCE AI all rights Reserved— Nigeria's smartest workforce automation.*
