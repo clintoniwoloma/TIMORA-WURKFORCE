@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Live Platform
-**WhatsApp Bot:** Active on WhatsApp (powered by Base44 Superagent)
+**WhatsApp Bot:** Active on WhatsApp (powered by Base44)
 **Dashboard:** Coming soon — web platform in development
 
 ---
